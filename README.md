@@ -1,24 +1,11 @@
 ===============================================================================
- __      __       __   _____  __      __
-/  \    /  \____ |  |_/ ____\/  \    /  \_____ _______   ____   
-\   \/\/   /  _ \|  |\   __\ \   \/\/   /\__  \\_  __ \_/ __ \   
- \        (  <_> )  |_|  |    \        /  / __ \|  | \/\  ___/   
-  \__/\  / \____/|____/__|     \__/\  /  (____  /__|    \___  >  
-       \/                           \/        \/            \/         
-___________            __                   __                       
-\__    ___/___   ____ |  |__   ____   ____ |  |   ____   ____ ___ __
-  |    |_/ __ \_/ ___\|  |  \ /    \ /  _ \|  |  /  _ \ / ___<   |  |
-  |    |\  ___/\  \___|   Y  \   |  (  <_> )  |_(  <_> ) /_/  >___  |
-  |____| \___  >\___  >___|  /___|  /\____/|____/\____/\___  // ____|
-             \/     \/     \/     \/                  /_____/ \/     
-===============================================================================
 
 Autor:   [WolfWare Technology]  
 Website: [https://WolfWare.Site]  
 Discord: [https://discord.gg/t44Yqbgpcu]
 
 =================================================================================
-###IMPORTANT NOTICE
+### IMPORTANT NOTICE
 =================================================================================
 
 By using this betting bot, you acknowledge that you are engaging in real-money betting, which is a form of gambling. Please be aware that, over the long term, you are very likely to lose. More information at [https://www.begambleaware.org](https://www.begambleaware.org).
@@ -33,7 +20,7 @@ These cookie settings allow the bot to perform bets, so every person with this d
 If you have any questions regarding the security of your data or any functions of the software, feel free to visit our Discord mentioned above for help.
 
 =================================================================================
-###Description
+### Description
 =================================================================================
 
 The StakeMaster is all you need when it comes to efficiently managing your gambling strategies. With a variety of supported games, this software is a must-have for both individual players and professional betting experts.
@@ -45,7 +32,7 @@ Elevate your betting experience today with our StakeMaster Beta and unlock the f
 Feel free to visit our Discord for questions and support. We also offer individual customization for all of our products to guarantee customer satisfaction in every regard.
 
 =================================================================================
-###Setup
+### Setup
 =================================================================================
 
 1. Open `StakeMaster.exe`
@@ -61,7 +48,7 @@ Feel free to visit our Discord for questions and support. We also offer individu
 **Note**: When you don't see a `graphql` request in your Inspection tab, you might need to change your browser, as Opera, for example, does not show it.
 
 =================================================================================
-Supported Games and Features
+### Supported Games and Features
 =================================================================================
 
 The StakeMaster is currently in Beta, so the supported games will be updated.
@@ -74,10 +61,10 @@ The StakeMaster is currently in Beta, so the supported games will be updated.
 Each game has its own basic features, followed by advanced betting options for Premium users. Navigate through the tabs to view the available strategies.
 
 =================================================================================
-Changelog
+### Changelog
 =================================================================================
 
-[Version 1.1.0.3] - 2024-08-13 [BETA RELEASE]
+### [Version 1.1.0.3] - 2024-08-13 [BETA RELEASE]
 ----------------------------
 
 ### Added
