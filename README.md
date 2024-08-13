@@ -13,90 +13,65 @@ ___________            __                   __
              \/     \/     \/     \/                  /_____/ \/     
 ===============================================================================
 
-Autor:   [WolfWare Technology]
-Website: [https://WolfWare.Site]
+Autor:   [WolfWare Technology]  
+Website: [https://WolfWare.Site]  
 Discord: [https://discord.gg/t44Yqbgpcu]
-
 
 =================================================================================
 IMPORTANT NOTICE
 =================================================================================
 
-By using this betting bot, you acknowledge that you are engaging in real-money
-betting, which is a form of gambling. Please be aware that, over the long term,
-you are very likely to loose. More information at https://www.begambleaware.org
+By using this betting bot, you acknowledge that you are engaging in real-money betting, which is a form of gambling. Please be aware that, over the long term, you are very likely to lose. More information at [https://www.begambleaware.org](https://www.begambleaware.org).
 
-WolfWare Technology is not responsible for any financial losses incurred as a
-result of strategies you create or through the use of this bot. By proceeding
-with the use of this software, you confirm your understanding and acceptance
-of these terms, and you release WolfWare Technology from any liability related
-to your gambling activities.
+WolfWare Technology is not responsible for any financial losses incurred as a result of strategies you create or through the use of this bot. By proceeding with the use of this software, you confirm your understanding and acceptance of these terms, and you release WolfWare Technology from any liability related to your gambling activities.
 
-Furthermore by applying your cookie credentials you understand that this is 
-sensitive information of your Stake-Account. This data will only be stored in
-the local config file of the software found under:
-/Appdata/Local/WolfWare-Technology/Stake-Master.../[version]/user.config
+Furthermore, by applying your cookie credentials, you understand that this is sensitive information of your Stake-Account. This data will only be stored in the local config file of the software found under:
+`/Appdata/Local/WolfWare-Technology/Stake-Master.../[version]/user.config`
 
-These Cookies settings allow the bot to perform bets so every person with this
-data would be able to perform requests using your credentials so please keep
-them secret and don't use the software if you think this would be a harm for you.
+These cookie settings allow the bot to perform bets, so every person with this data would be able to perform requests using your credentials. Please keep them secret and don't use the software if you think this could harm you.
 
-If you have any questions regarding the security of your data or any functions
-of the Software feel free to visit our Discord mentioned above for help.
+If you have any questions regarding the security of your data or any functions of the software, feel free to visit our Discord mentioned above for help.
 
 =================================================================================
 Description
 =================================================================================
 
-The StakeMaster is all you need when it comes to efficiently managing your
-gambling strategies. With a variety of supported Games, this software is a
-must-have for both individual players and professional betting experts.
+The StakeMaster is all you need when it comes to efficiently managing your gambling strategies. With a variety of supported games, this software is a must-have for both individual players and professional betting experts.
 
-Crafted with a user-friendly interface, the StakeMaster offers seamless access
-to your Stake Account without any API, enabling users to secure their own Data.
-Whether you're a casual player trying out some new Ides or an expertised
-professional aiming for optimization on both, betting-speed and effiency, this
-software serves as your ultimate companion.
+Crafted with a user-friendly interface, the StakeMaster offers seamless access to your Stake account without any API, enabling users to secure their own data. Whether you're a casual player trying out some new ideas or an expert aiming for optimization in both betting speed and efficiency, this software serves as your ultimate companion.
 
-Elevate your betting experience today with our StakeMaster Beta and unlock the
-full potential of your gaming journey.
+Elevate your betting experience today with our StakeMaster Beta and unlock the full potential of your gaming journey.
 
-
-Feel free to visit our Discord for Questions and Support.
-We also offer an individual customization for all of our products to guarantee
-Customer-Satisfaction in every regard
+Feel free to visit our Discord for questions and support. We also offer individual customization for all of our products to guarantee customer satisfaction in every regard.
 
 =================================================================================
 Setup
 =================================================================================
 
-- Open StakeMaster.exe
-- Enter your Website-Username with a password and register
-- Log into your Account
-- Open your Browser and navigate to a Stake Originals Game (such as Dice)
-- Right-Click on an empty spot on the screen and hit "Inspect"
-- Navigate to the "Network" Tab and place a Bet on Stake (dno bet amount required)
-- Right-Click the "graphql" request and hit "Copy"→ "copy as cURL (bash)"
-- Insert copied Text into the "Detect automatically" Textfield in the
-  StakeMaster.exe and click "Check"
-- Enjoy the StakeMaster Beta by WolfWare Technology
+1. Open `StakeMaster.exe`
+2. Enter your website username with a password and register.
+3. Log into your account.
+4. Open your browser and navigate to a Stake Originals game (such as Dice).
+5. Right-click on an empty spot on the screen and hit "Inspect".
+6. Navigate to the "Network" tab and place a bet on Stake (no bet amount required).
+7. Right-click the `graphql` request and hit "Copy" → "Copy as cURL (bash)".
+8. Insert the copied text into the "Detect automatically" text field in the `StakeMaster.exe` and click "Check".
+9. Enjoy the StakeMaster Beta by WolfWare Technology.
 
-- Note: When you don't see a "graphql" request in your Inspection-Tab you might
-	need to change your browser as Opera for example does not show it
+**Note**: When you don't see a `graphql` request in your Inspection tab, you might need to change your browser, as Opera, for example, does not show it.
 
 =================================================================================
 Supported Games and Features
 =================================================================================
 
-The StakeMaster is currently in Beta so the Supported Games will be updated
+The StakeMaster is currently in Beta, so the supported games will be updated.
 
 - Diamonds
 - Dice
 - Mines
 - Limbo
 
-Every Game has their own basic features, followed by advanced betting options
-for Premium-Users. Navigate throught the Tabs to view the available Strategies.
+Each game has its own basic features, followed by advanced betting options for Premium users. Navigate through the tabs to view the available strategies.
 
 =================================================================================
 Changelog
@@ -125,8 +100,8 @@ Changelog
 ### Deleted
 - 
 
-### Coming soon
+### Coming Soon
 - Games: Hilo, Dragon Tower
 
 ### Known Issues/Bugs
-- No Bugs reported. - View Https://WolfWare.Site/Status to report bugs
+- No bugs reported. Visit [https://WolfWare.Site/Status](https://WolfWare.Site/Status) to report bugs.
