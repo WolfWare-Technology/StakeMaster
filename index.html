@@ -54,7 +54,7 @@
 
     <script>
         // Fetch the README.md file and display its content
-        fetch('README.md')
+        fetch('./README.md')
             .then(response => response.text())
             .then(text => {
                 document.getElementById('content').innerHTML = marked(text);
