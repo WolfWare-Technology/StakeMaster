@@ -55,13 +55,18 @@
     <script>
         // Fetch the README.md file and display its content
         fetch('./README.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked(text);
-            })
-            .catch(error => {
-                document.getElementById('content').innerHTML = "<p>Fehler beim Laden des Inhalts.</p>";
-            });
+			.then(response => {
+				if (!response.ok) {
+					throw new Error('Netzwerkantwort war nicht ok');
+				}
+				return response.text();
+			})
+			.then(text => {
+				document.getElementById('content').innerHTML = marked(text);
+			})
+			.catch(error => {
+				document.getElementById('content').innerHTML = `<p>Fehler beim Laden des Inhalts: ${error.message}</p>`;
+			});
     </script>
 
     <!-- Include the Marked.js library to convert Markdown to HTML -->
