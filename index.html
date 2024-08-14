@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Page</title>
+    <title>Meine GitHub Page</title>
     <style>
+        /* Allgemeiner Stil */
         body {
             background-color: #121212;
             color: #ffffff;
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
+            padding: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
             padding: 20px;
         }
 
+        /* Überschriften in dunklem Blau */
         h1, h2, h3, h4, h5, h6 {
-            color: #bb86fc;
+            color: #1e90ff;
         }
 
+        /* Links */
         a {
             color: #03dac6;
             text-decoration: none;
@@ -27,6 +37,7 @@
             text-decoration: underline;
         }
 
+        /* Code-Blöcke */
         pre {
             background-color: #272727;
             padding: 10px;
@@ -40,27 +51,91 @@
             border-radius: 3px;
         }
 
-        .container {
-            max-width: 800px;
+        /* GitHub Markdown Stil */
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 100%;
             margin: 0 auto;
-            padding: 20px;
+            padding: 45px;
+        }
+
+        .markdown-body h1, .markdown-body h2 {
+            padding-bottom: .3em;
+            border-bottom: 1px solid #eaecef;
+        }
+
+        .markdown-body a {
+            color: #0366d6;
+        }
+
+        /* Video-Wrapper */
+        .video-wrapper {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        /* Link Icons */
+        .icon-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .icon-links a {
+            margin: 0 10px;
+            color: #ffffff;
+        }
+
+        .icon-links a:hover {
+            color: #1e90ff;
+        }
+
+        .icon-links i {
+            font-size: 24px;
         }
     </style>
+    <!-- FontAwesome für die Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- GitHub Markdown CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown-dark.min.css">
 </head>
 <body>
     <div class="container">
-        <div id="content"></div>
+        <h1>WolfWare Technology - StakeMaster BETA Release</h1>
+        <p>Welcome to our StakeMaster Page. Here you can overview the latest version as well as tutorials on the newest Features. If you still have questions or need help feel free to visit our Socials below</p>
+
+        <!-- Tutorial Video -->
+        <div class="video-wrapper">
+            <h2>Tutorial Video</h2>
+            <iframe src="https://www.youtube.com/embed/22sJkn8-Ydk" title="Tutorial Video"></iframe>
+        </div>
+
+        <!-- Markdown-Inhalt -->
+        <div id="content" class="markdown-body"></div>
+
+        <!-- Icon-Links -->
+        <div class="icon-links">
+            <a href="https://discord.gg/KzKaHBDcfm" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://wolfware.site" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://www.youtube.com/@WolfWareTechnology" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
     </div>
 
     <!-- Include the Marked.js library to convert Markdown to HTML -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
     <script>
         // Fetch the README.md file and display its content
-        fetch('./README.md')
+        fetch('README.md')
             .then(response => response.text())
             .then(text => {
-                // Use the 'marked.parse' method to convert Markdown to HTML
                 document.getElementById('content').innerHTML = marked.parse(text);
             })
             .catch(error => {
