@@ -15,7 +15,7 @@ WolfWare Technology is not responsible for any financial losses incurred as a re
 Furthermore, by applying your cookie credentials, you understand that this is sensitive information of your Stake-Account. This data will only be stored in the local config file of the software found under:
 `/Appdata/Local/WolfWare-Technology/Stake-Master.../[version]/user.config`
 
-These cookie settings allow the bot to perform bets, so every person with this data would be able to perform requests using your credentials. Please keep them secret and don't use the software if you think this could harm you.
+These cookie settings allow the bot to perform bets, so every person with this data would be able to perform requests using your credentials. Please keep them a secret and don't use the software if you think this could harm you.
 
 If you have any questions regarding the security of your data or any functions of the software, feel free to visit our Discord mentioned above for help.
 
@@ -36,7 +36,7 @@ Feel free to visit our Discord for questions and support. We also offer individu
 ============================================================
 
 1. Open `StakeMaster.exe`
-2. Enter your website username with a password and register.
+2. Enter a username with a password and register.
 3. Log into your account.
 4. Open your browser and navigate to a Stake Originals game (such as Dice).
 5. Right-click on an empty spot on the screen and hit "Inspect".
@@ -91,4 +91,4 @@ Each game has its own basic features, followed by advanced betting options for P
 - Games: Hilo, Dragon Tower
 
 ### Known Issues/Bugs
-- No bugs reported. Visit [https://WolfWare.Site/Status](https://WolfWare.Site/Status) to report bugs.
+- No bugs reported. Visit [https://WolfWare.Site/Status](https://WolfWare.Site/status) to report bugs.
