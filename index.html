@@ -52,24 +52,20 @@
         <div id="content"></div>
     </div>
 
+    <!-- Include the Marked.js library to convert Markdown to HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
     <script>
         // Fetch the README.md file and display its content
         fetch('./README.md')
-			.then(response => {
-				if (!response.ok) {
-					throw new Error('Netzwerkantwort war nicht ok');
-				}
-				return response.text();
-			})
-			.then(text => {
-				document.getElementById('content').innerHTML = marked(text);
-			})
-			.catch(error => {
-				document.getElementById('content').innerHTML = `<p>Fehler beim Laden des Inhalts: ${error.message}</p>`;
-			});
+            .then(response => response.text())
+            .then(text => {
+                // Use the 'marked.parse' method to convert Markdown to HTML
+                document.getElementById('content').innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                document.getElementById('content').innerHTML = `<p>Fehler beim Laden des Inhalts: ${error.message}</p>`;
+            });
     </script>
-
-    <!-- Include the Marked.js library to convert Markdown to HTML -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </body>
 </html>
